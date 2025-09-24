@@ -10,13 +10,22 @@ body {
 .banner {
     background: url('banner.png') no-repeat center center;
     background-size: cover;
-    height: 500px;
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    overflow: hidden;
     position: relative;
+}
+
+.banner img{
+    width: 100%;
+    height: 60%;
+    display: inline-block;
 }
 
 .banner-texto {
